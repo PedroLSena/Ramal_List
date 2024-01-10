@@ -1,0 +1,87 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&family=Raleway:ital,wght@0,100;0,400;0,600;0,800;1,100&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(158,173,252);
+    background: radial-gradient(circle, rgba(158,173,252,1) 0%, rgba(187,187,187,1) 100%);
+}
+.odio{
+
+        display: flex;
+        
+        align-items: center;
+        
+        justify-content: center;
+
+}
+.tarefas {
+    display: grid;
+    place-items: center;
+    text-align: left;
+    padding:20px;
+    background-color:   rgba(187,187,187,1);
+    border: 1px solid rgba(187,187,187,1);
+    width:max-content;
+    border-radius: 15px;
+    list-style-type:decimal;
+    line-height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+
+.lista {
+    display: grid;
+    place-items: center;
+    text-align: left;
+    padding:20px;
+    background-color:   rgba(187,187,187,1);
+    border: 1px solid rgba(187,187,187,1);
+    width:max-content;
+    border-radius: 15px;
+    list-style-type:decimal;
+    line-height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.all{
+    background-color: rgba(187,187,187,1);
+    margin-top: 5px;
+    padding-top: 0px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: 350px;
+}
+
+.titulo {
+    text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.41);
+    text-align: center;
+    padding-top:15px;
+    
+    
+}
+
+
+.btnFunc{
+    margin: 20px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+.apagar{
+    padding: 1px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
